@@ -12,8 +12,35 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-
+// body
+strokeWeight(3);
+fill(204, 202, 199);
+triangle(200, 100, 115, 307, 270, 309);
   
+// head
+fill(176, 139, 83);
+noStroke();
+ellipse(200, 150, 100, 130);
+ellipse(170, 125, 150, 80);
+ellipse(228, 90, 18, 45);
+ellipse(202, 80, 18, 45);
+
+// nose
+fill(0, 0, 0);
+ellipse(110, 122, 40, 50);
+
+// eyes
+strokeWeight(12);
+stroke(0,0,0);
+point(190, 110);
+point(220, 117);
+
+// mouth
+noFill();
+strokeWeight(2);
+arc(180, 130, 100, 100, radians(60), radians(100));
+
+
 
 }
 
